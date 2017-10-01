@@ -1,0 +1,284 @@
+
+*{margin: 0px;
+	padding: 0px;}
+
+
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+body{
+position: relative;
+margin: 0;
+background-image:url(https://www.toptal.com/designers/subtlepatterns/patterns/vintage-concrete.png);
+padding-bottom: 6rem;
+min-height: 100%;
+
+}
+div.head{
+  background-color:#ffffff; 
+	height:80px;
+	width:100%;
+	box-shadow: 0px 2px 4px gray;
+	position: absolute;
+	min-width: 100%;
+	overflow:hidden;}
+div.head-in{
+font-size:200%;
+font-family:"Goergia",Times;
+font-weight:bolder;
+color:white;
+background-color:teal;
+height:100%; 
+width:30%;
+margin-left:100px;
+float:left;
+padding-top:10px;}
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  z-index: 1;}
+  
+  header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;}
+ 
+  header ul{
+    margin: 0;
+    padding: 0;}
+ 
+  header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;}
+
+header #top{
+    color: black;
+    background-color: teal;
+    width: 10%;
+    padding: 0px 5px 0px 5px;
+  }
+  header nav{
+    float: right;
+    margin-bottom: 40px;
+    padding-right: 10px;
+  }
+  
+
+
+
+
+li>a{
+display: block;
+line-height:60px; 
+text-align:center;
+font-family: 'Georgia', Times, Times New Roman, serif;font-size:18px;
+color:#585858;
+
+}
+#bt1 {
+  border-left: 1px solid #1e1e1e;
+  margin: 10px 0 0 0;
+
+}
+#bt2 {
+  border-right: 1px solid #1e1e1e;
+  border-left: 1px solid #1e1e1e;
+  margin: 10px 0 0 5px;
+
+}
+#bt3 {
+  border-right: 1px solid #1e1e1e;
+  margin: 10px 0 0 5px;
+
+}
+
+
+
+
+
+
+
+#container {
+background-color:#ffffff;
+height:400px;
+width:40%;
+float:left;
+margin-top:90px;
+position:absolute;
+left:5%; 
+overflow: scroll;
+}
+
+div.about-me{
+font-size:30px;
+font-family:"Goergia",Times, Times New Roman,Serif;
+font-weight:bolder;
+color:teal; 
+background-color: white; 
+height:50px;
+width: 90%;
+margin-right: 25px;
+margin-left: 25px;
+margin-bottom: 25px; 
+border-bottom: 4px solid #cccccc;
+text-align: left;
+margin-top:25px;
+}
+
+.content>img {
+width:20%; 
+float:left;
+margin: 0px 25px 25px 25px;
+}
+
+div>p {
+line-height: 35px; 
+text-align: justify;
+margin:0px 25px 25px 25px;
+}
+
+
+#container2{
+background-color:#ffffff;
+height:200px; 
+width:25%;
+margin-top:90px;
+position:absolute; 
+margin-left: 25px; 
+right:5%;
+ }
+
+div.contact-me{
+font-size:25px; 
+font-family:"Goergia",Times, Times New Roman,Serif;
+font-weight:bolder;
+color:teal; 
+background-color: white; 
+height:40px;
+width: 90%;
+margin-right: 25px;
+margin-left: 25px;
+margin-bottom: 25px; 
+border-bottom: 2px solid #cccccc;
+text-align: center;
+margin-top:25px;
+}
+
+
+.content2>a>img{
+margin-left:10%;
+height:15%;
+width:18%;
+position:relative;
+}
+
+
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color:#636464;
+  text-align: center;
+  border-top:7px #4caca4 solid;
+  color: white;
+}
+
+@media (max-width: 980px) {
+
+.content>img {
+width:70%; 
+height:400px;
+margin-left: 80px;
+}
+
+div>p {
+line-height: 35px; 
+text-align: justify;
+margin:0px 25px 25px;
+}
+
+div.contact-me{
+font-size:20px; 
+width: 90%;
+margin-right: 25px;
+margin-left: 20px;
+margin-bottom: 25px; 
+border-bottom: 2px solid #cccccc;
+text-align: center;
+margin-top:25px;
+} 
+
+}
+
+@media (max-width: 768px) {
+#container {
+width:80%;
+left:10%; 
+height:400px;
+}
+
+.content>img {
+width:35%;
+height:250px; 
+float:left;
+margin-left:10px;
+}
+
+#container2{
+height:200px; 
+width:80%;
+margin-top:550px;
+left:7%; 
+float:left;
+ }
+
+}
+
+
+@media (max-width: 640px) {
+div.head{
+height:120px;
+width:100%;
+}
+
+div.head-in{
+font-size:30px;
+height:50px;
+width:100%;
+margin-left:0;
+}
+
+header a{
+  font-size: 10px;}
+ 
+  header ul{
+    margin-left: 90px;
+    padding: 0;}
+ 
+  header li{
+    float: left;
+    display: inline;
+    padding: 0 50px 0 50px;}
+
+  header nav{
+    float:left;
+    margin-bottom:0px
+      padding-right: 10px;}
+
+
+#container {
+margin-top: 150px;
+}
+
+#container2 {
+margin-top: 600px;
+}
+}

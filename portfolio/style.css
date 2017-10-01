@@ -1,0 +1,281 @@
+/*reset value*/
+*{margin: 0px ;
+	padding: 0px;}
+
+/*page size*/
+html {
+  height: 100%;
+  overflow: scroll;
+}
+
+/*header*/
+div.head{background-color:#ffffff; 
+	height:60px;
+	width:100%;
+	box-shadow: 0px 2px 4px gray;
+	position: absolute;
+}
+
+div.head-in{font-size:30px;
+font-family:"Goergia",Times, Times New Roman,Serif;
+font-weight:bolder;
+color:white;
+background-color:teal;
+height:50px; 
+width:25%;
+margin-left:5%;
+float:left;
+padding-top:10px;}
+
+
+
+/*wrapper is created to wrap around divisions*/
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  height: 90%
+  z-index: 1;
+  overflow: scroll;}
+  
+
+/*navigation bar*/
+#navbar{
+width:60%;
+height:30px;
+border-left:1px solid #cccccc; 
+margin-top:7px;
+margin-left:65%;
+}
+
+#navbar>li{
+width:20%;
+display:inline-block;
+line-height:10px;
+border-left:1px solid gray;
+float:left;
+
+}
+
+li>a{
+display: block;
+line-height:40px; 
+text-align:center;
+font-family: 'Georgia', Times, Times New Roman, serif;font-size:18px;
+color:#585858;
+}
+
+li>a:hover{
+background-color:#E6E6E6;
+} /*when you drag mouse above the bar will change the color*/
+
+
+
+/*body*/
+body{
+background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/vintage-concrete.png);
+position: relative;
+margin: 0;
+padding-bottom: 6rem;
+min-height: 100%;
+font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+
+/*container1*/
+#container {
+background-color:#ffffff;
+height:400px;
+width:40%;
+float:left;
+margin-top:90px;
+position:absolute;
+left:5%; 
+min-width:500px;
+min-height:700px;
+overflow: scroll;
+}
+
+div.port{font-size:30px;
+font-family:"Goergia",Times, Times New Roman,Serif;
+font-weight:bolder;
+color:teal; 
+background-color: white; 
+height:50px;
+width: 90%;
+margin-right: 25px;
+margin-left: 25px;
+margin-bottom: 25px; 
+border-bottom: 4px solid #cccccc;
+text-align: left;
+margin-top:25px;
+}
+
+.content>img {
+width:40%; 
+float:left;
+margin:5%;
+height:170px;
+position: relative;
+z-index: 100;
+}
+
+#caption>span{
+font-size:25px;
+color:white;
+font-family:"Goergia",Times, Times New Roman,Serif;
+text-align: center;
+background-color:teal;
+width:40%;
+height:50px;
+margin:75px 100px 25px 25px;
+left:0;
+padding-top: 15px;
+position: relative;
+z-index: 2000;
+float:left;
+}
+
+
+/*container2*/
+#container2{
+background-color:#ffffff;
+height:250px; 
+width:25%;
+margin-top:90px;
+position:absolute; 
+margin-left: 25px; 
+right:5%;
+ }
+
+div.contact-me{
+font-size:25px; 
+font-family:"Goergia",Times, Times New Roman,Serif;
+font-weight:bolder;
+color:teal; 
+background-color: white; 
+height:40px;
+width: 90%;
+margin-right: 25px;
+margin-left: 25px;
+margin-bottom: 25px; 
+border-bottom: 2px solid #cccccc;
+text-align: center;
+margin-top:25px;
+}
+
+.content2>a>img {
+margin-left:6%;
+height:15%;
+width:25%;
+position:relative;
+
+}
+
+/*footer*/
+.footer {
+  position:fixed; 
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color:#636464;
+  text-align: center;
+  border-top:7px #4caca4 solid;
+}
+
+@media (max-width: 980px) {
+div.head-in{
+font-size:20px;
+padding-top:20px;
+height:40px;
+}
+
+#navbar
+{margin-left: 60%;}
+
+#container2{
+height:150px; 
+right:10%;
+padding-bottom: 15px;
+ }
+
+div.contact-me{
+font-size:20px; 
+width: 90%;
+margin-right: 25px;
+margin-left: 20px;
+margin-bottom: 25px; 
+border-bottom: 2px solid #cccccc;
+text-align: center;
+margin-top:25px;
+} 
+}
+
+@media (max-width:768px ) {
+#container {
+width:85%;
+margin-top:90px;
+margin-left:5px;
+
+}
+
+#container2{
+height:150px; 
+width:85%;
+margin-top:850px; 
+margin-left:5px;
+ }
+
+.content2>a>img {
+margin-left:6%;
+height:3%;
+width:10%;
+
+}
+}
+
+@media (max-width: 640px) {
+div.head{
+  height:120px;
+}
+
+div.head-in{
+width:100%;
+float:left;
+margin-left:0;
+font-size:30px;
+padding-bottom: 5px}
+
+
+#navbar{
+width:80%;
+height:30px;
+border-left:1px solid #cccccc; 
+margin-top:40px;
+margin-left:10%;
+}
+
+#navbar>li{
+width:30%;
+display:inline-block;
+line-height:10px;
+border-left:1px solid gray;
+float:left;}
+
+#container {
+margin-top:150px;
+}
+
+.content>img {
+width:80%; 
+margin:10%;
+}
+
+#container2{
+width:85%;
+margin-top:900px; 
+margin-left:10px;
+ }
+
+
+}
